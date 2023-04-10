@@ -12,35 +12,40 @@
       <div class="black_background">
         <div class="items">
           <img src="logo.png" alt="" />
-          <span class="sign_in_text">Sign In</span>
+          <span class="background_text">Sign In</span>
         </div>
       </div>
     </div>
     <div class="sign-in_section">
-      <div>This is not a real online service!</div>
+      <div>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams. Sign up
+        <span style="font-style: italic">now</span> to get started.
+      </div>
+      <div>You <span style="font-style: italic">know</span> you want to.</div>
       <form class="sign_up_form">
-        <div class="input_block">
-          <label for="fn">FIRST NAME</label>
-          <input type="text" name="usr_first_name" id="fn" />
+        <fieldset>
+          <div class="input_block">
+            <label for="fn">FIRST NAME</label>
+            <input type="text" name="usr_first_name" id="fn" />
+            <label for="fn">EMAIL</label>
+            <input type="email" name="usr_email" id="mail" />
+            <label for="fn">PASSWORD</label>
+            <input type="password" name="usr_pw" id="usrPw" />
+          </div>
 
-          <label for="fn">EMAIL</label>
-
-          <input type="email" name="usr_email" id="mail" />
-
-          <label for="fn">PASSWORD</label>
-
-          <input type="password" name="usr_pw" id="usrPw" />
-        </div>
-
-        <div class="input_block">
-          <label for="fn">LAST NAME</label>
-          <input type="text" name="usr_last_name" id="ln" />
-          <label for="fn">PHONE NUMBER</label>
-          <input type="tel" name="usr_phonenum" id="phoneNum" />
-          <label for="fn">CONFIM PASSWORD</label>
-          <input type="password" name="usr_pw" id="usrPW_confirm" />
-        </div>
+          <div class="input_block">
+            <label for="fn">LAST NAME</label>
+            <input type="text" name="usr_last_name" id="ln" />
+            <label for="fn">PHONE NUMBER</label>
+            <input type="tel" name="usr_phonenum" id="phoneNum" />
+            <label for="fn">CONFIM PASSWORD</label>
+            <input type="password" name="usr_pw" id="usrPW_confirm" />
+          </div>
+        </fieldset>
       </form>
+      <button type="submit">Create Account</button>
+      <div>Already have an account? Log in</div>
     </div>
   </body>
 </html>

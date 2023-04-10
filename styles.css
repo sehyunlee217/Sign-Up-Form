@@ -3,6 +3,8 @@ body{
     margin: 0;
     min-height: 100vh;
     display: flex;
+    background-color: rgb(224, 224, 224);
+
 }
 
 .backgroundImage{
@@ -13,8 +15,6 @@ body{
     height: 100vh;
     align-items: center;
 }
-
-
 
 .black_background{
     width: 100%;
@@ -35,34 +35,57 @@ img{
     padding-right: 20px;
 }
 
-.sign_in_text{
+.background_text{
     color: white;
     font-size: 60px;
     font-family: "Norse-Bold", sans-serif;
     margin-bottom: -10px;
 }
 
-
 .sign-in_section{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    gap: 50px;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
-form{
+fieldset{
     display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    min-width: 500px;
+    max-width: 600px;
+}
+
+legend{
+    font-size: 20px;
 }
 
 .input_block{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    color: gray;
+    font-size: 10px;
     font-weight: lighter;
-    padding: 50px;    
+    margin-right: auto;
 }
 
+input{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 200px;
+    padding: 12px 20px;
+}
 
 @font-face {
     font-family: "Norse-Bold";
