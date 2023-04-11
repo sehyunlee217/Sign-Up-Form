@@ -1,0 +1,145 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.content{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 15;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 5rem;
+    padding-top: 1em;
+}
+
+.logo_info{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+    margin: 2rem;
+    box-shadow: 0 0 15px #060606;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 3em;
+    box-shadow: 0 0 0.5em #00000096;
+}
+
+.inputs{
+    display: flex;
+    gap: 2em;
+}
+
+.input_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: gray;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+input{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(128, 128, 128, 0.487);
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
+h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.6em;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    color: rgb(42, 41, 41);
+
+}
+
+hr{
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 0;
+    height: 2px;
+    min-width: 100%;
+    margin-bottom: 1.5em;
+}
+
+button{
+    color: antiquewhite;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0px;
+    height: 3em;
+    background-color: rgb(125, 178, 73);
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 0.2em #00000096;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(69, 98, 40);}
+
+footer{
+    display: flex;
+    flex: 2;
+    background-color: #c6c6c6bb;
+    justify-content: center;
+    gap: 1em;
+    align-items:center;
+    color: #7e7e7e;
+    padding: 0.5em;
+    overflow:auto;
+}
+
+footer>div:hover{
+    font-family: inherit;
+    color: black;
+    font-weight: 500;
+}
+
+h1,h2{
+    font-family: "Norse-Bold";
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}

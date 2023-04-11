@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in Page V2</title>
+    <link rel="stylesheet" href="styles_v2.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="logo_info">
+        <img src="logo.png" />
+        <h2>Connect with friends and the world around you on Odinbook.</h2>
+      </div>
+      <form class="sign_up_form">
+        <fieldset>
+          <h1>Odin Book Sign-up</h1>
+          <div class="inputs">
+            <div class="input_block">
+              <label for="fn">FIRST NAME</label>
+              <input
+                type="text"
+                name="usr_first_name"
+                id="fn"
+                placeholder="Thor"
+                required
+                autofocus
+              />
+              <label for="fn">EMAIL</label>
+              <input
+                type="email"
+                name="usr_email"
+                id="mail"
+                placeholder="ThorOdin@mail.com"
+                required
+              />
+              <label for="fn">PASSWORD</label>
+              <input
+                type="password"
+                name="usr_pw"
+                id="usrPw"
+                minlength="8"
+                maxlength="15"
+                required
+              />
+            </div>
+
+            <div class="input_block">
+              <label for="fn">LAST NAME</label>
+              <input
+                type="text"
+                name="usr_last_name"
+                id="ln"
+                placeholder="Odin"
+                required
+              />
+              <label for="fn">PHONE NUMBER</label>
+              <input
+                type="tel"
+                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+                title="Please enter in phone number format: 010 9233 8221"
+                name="usr_phonenum"
+                id="phoneNum"
+                placeholder="000-111-2222"
+                required
+              />
+              <label for="confirm">CONFIM PASSWORD</label>
+              <input type="password" name="confirm_pw" id="confirm" required />
+            </div>
+          </div>
+          <hr />
+          <!-- <meter min="0" max="100" value=""></meter> -->
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <div>English (US)</div>
+      <div>한국어</div>
+      <div>Tiếng Việt</div>
+      <div>Bahasa</div>
+      <div>Indonesia</div>
+      <div>ภาษาไทย</div>
+      <div>Español</div>
+      <div>中文(简体)</div>
+      <div>日本語</div>
+      <div>Português (Brasil)</div>
+      <div>Français (France)</div>
+      <div>Deutsch</div>
+    </footer>
+    <script src="pw_validation.js"></script>
+  </body>
+</html>
