@@ -1,6 +1,6 @@
-# The Odin Project - Project Landing Page
+# The Odin Project - Project Sign-Up Form
 
-## <a href="https://sehyunlee217.github.io/TOP_Landing-Page/">Live Preview</a>
+## <a href="https://sehyunlee217.github.io/TOP_Sign-Up-Form/">Live Preview</a>
 
 <img width="1624" alt="Screenshot 2023-04-11 at 5 35 30 PM" src="https://user-images.githubusercontent.com/121660178/231103863-515a99dd-b680-4d84-9baa-a49b0bc05e7a.png">
 
